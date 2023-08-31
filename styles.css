@@ -21,6 +21,10 @@ body {
     padding: 0px 150px 100px 150px;
 }
 
+.sec-3 {
+    background-color: #E5E7EB;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -40,6 +44,11 @@ body {
     color: #E5E7EB;
     background-color: #1F2937;
     gap: 25px;
+}
+
+.container-links a {
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 .container-principal {
@@ -101,3 +110,31 @@ body {
     padding: 0 25px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 250px 150px 250px;
+    gap: 25px;
+}
+
+.author {
+    align-self: flex-end;
+    color: black;
+    font-weight: 800;
+    margin-right: 35px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.rodape {
+    color: white;
+    background-color: #1F2937;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+}
